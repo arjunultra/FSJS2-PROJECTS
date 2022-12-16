@@ -63,7 +63,7 @@
               <li class="list-item">About</li>
             </ul>
           </div>
-          <div class="button-group">
+          <div class="button-group flex gap-4 px-6">
             <div class="search-icon">
               <svg
                 width="32"
@@ -82,7 +82,11 @@
                 />
               </svg>
             </div>
-            <div><button class="nav-button">Search</button></div>
+            <button
+              class="nav-button border-[2px] border-black px-12 py-1 rounded-xl text-slate-500 text-2xl outline-4 shadow-xl shadow-black/50"
+            >
+              Search
+            </button>
           </div>
         </nav>
       </section>
@@ -92,9 +96,12 @@
           <!-- --------------- -->
           <!-- Patterns -->
           <!-- ---------------- -->
-          <span class="square">
-            <img src="/assets/squares.png" alt="square-pattern" />
-          </span>
+          <div class="relative">
+            <img class="" src="/assets/Image.png" alt="person-hero-iamge" />
+            <span class="square absolute -bottom-[100px] left-[225px]">
+              <img src="/assets/squares.png" alt="square-pattern" />
+            </span>
+          </div>
           <!-- Star -->
           <span class="star">
             <img src="/assets/start.png" alt="start-pattern" />
@@ -107,9 +114,7 @@
           <span class="globe">
             <img src="/assets/globe.png" alt="globe-pattern" />
           </span>
-          <div>
-            <img src="/assets/Image.png" alt="person-hero-iamge" />
-          </div>
+
           <div class="hero-container-right">
             <h1 class="hero-heading">What’s Trend in 2025 ?</h1>
             <p class="hero-description">
