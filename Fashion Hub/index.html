@@ -91,32 +91,42 @@
         </nav>
       </section>
       <!-- Hero Banner Section -->
-      <section aria-label="banner">
-        <div class="hero-container">
+      <section class="" aria-label="banner">
+        <div class="hero-container flex justify-around">
           <!-- --------------- -->
           <!-- Patterns -->
           <!-- ---------------- -->
-          <div class="relative">
-            <img class="" src="/assets/Image.png" alt="person-hero-iamge" />
-            <span class="square absolute -bottom-[100px] left-[225px]">
-              <img src="/assets/squares.png" alt="square-pattern" />
-            </span>
+          <!-- LHS -->
+          <div class="relative w-screen h-[85%]">
+            <img
+              class="w-[425px] h-[500px] absolute top-[50px] left-[100px] z-10"
+              src="/assets/Image.png"
+              alt="person-hero-iamge"
+            />
+            <img
+              class="w-[350px] h-[308px] z-0 absolute top-[300px] left-[245px]"
+              src="/assets/squares.png"
+              alt="square-pattern"
+            />
           </div>
           <!-- Star -->
-          <span class="star">
-            <img src="/assets/start.png" alt="start-pattern" />
-          </span>
-          <!-- Star -->
-          <span class="star">
-            <img src="/assets/start.png" alt="start-pattern" />
-          </span>
-          <!-- Globe -->
-          <span class="globe">
-            <img src="/assets/globe.png" alt="globe-pattern" />
-          </span>
+          <div class="star">
+            <img
+              class="h-[6%] w-[3%] absolute bottom-[80px] left-[42%]"
+              src="/assets/start.png"
+              alt="start-pattern"
+            />
+          </div>
+          <!-- RHS -->
 
-          <div class="hero-container-right">
-            <h1 class="hero-heading">What’s Trend in 2025 ?</h1>
+          <div
+            class="hero-container-right flex flex-col items-center justify-center w-[100vw]"
+          >
+            <h1
+              class="hero-heading text-5xl font-black font-orbitron h-[10%] max-w-[100%]"
+            >
+              What’s Trend in 2025 ?
+            </h1>
             <p class="hero-description">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor in- cididunt ut labore et dolore magna aliqua. Ut
