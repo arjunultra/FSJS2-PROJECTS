@@ -37,7 +37,7 @@
   </head>
 
   <!-- FSJS 2.0 Project One -->
-  <body class="font-sans">
+  <body class="font-sans overflow-hidden">
     <div class="container">
       <!-- Navbar Section -->
       <section aria-label="navbar">
@@ -91,72 +91,75 @@
         </nav>
       </section>
       <!-- Hero Banner Section -->
-      <section class="" aria-label="banner">
-        <div class="hero-container flex justify-around">
-          <!-- --------------- -->
-          <!-- Patterns -->
-          <!-- ---------------- -->
-          <!-- LHS -->
-          <div class="relative w-screen h-[85%]">
-            <img
-              class="w-[425px] h-[500px] absolute top-[50px] left-[100px] z-10"
-              src="/assets/Image.png"
-              alt="person-hero-iamge"
-            />
-            <img
-              class="w-[350px] h-[308px] z-0 absolute top-[300px] left-[245px]"
-              src="/assets/squares.png"
-              alt="square-pattern"
-            />
-          </div>
-          <!-- Star -->
-          <div class="star">
-            <img
-              class="h-[6%] w-[3%] absolute bottom-[80px] left-[42%]"
-              src="/assets/start.png"
-              alt="start-pattern"
-            />
-          </div>
-          <!-- RHS -->
+      <div class="hero-container flex justify-around">
+        <!-- LHS -->
+        <div class="relative w-screen h-[85%]">
+          <img
+            class="w-[425px] h-[500px] absolute top-[50px] left-[100px] z-10"
+            src="/assets/Image.png"
+            alt="person-hero-iamge"
+          />
+          <img
+            class="w-[350px] h-[308px] z-0 absolute top-[300px] left-[245px]"
+            src="/assets/squares.png"
+            alt="square-pattern"
+          />
+        </div>
+        <!-- Star -->
+        <div class="star">
+          <img
+            class="h-[6%] w-[3%] absolute bottom-[80px] left-[42%]"
+            src="/assets/start.png"
+            alt="start-pattern"
+          />
+        </div>
+        <!-- RHS -->
 
-          <div
-            class="hero-container-right flex flex-col items-center justify-center w-[100vw]"
+        <div
+          class="hero-container-right max-w-[100vw] h-[100vh] flex flex-col items-center justify-evenly w-[100vw]"
+        >
+          <h1
+            class="hero-heading text-5xl font-black font-orbitron h-[10%] max-w-[100%] mb-0"
           >
-            <h1
-              class="hero-heading text-5xl font-black font-orbitron h-[10%] max-w-[100%]"
+            What’s Trend in 2025 ?
+          </h1>
+          <p class="hero-description mb-10">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+            eiusmod tempor in- cididunt ut labore et dolore magna aliqua. Ut
+            enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi
+            ut
+          </p>
+          <!-- button container -->
+          <div class="btn-container flex">
+            <button
+              class="button-email bg-transparent border-2 border-black px-4 py-[2px] rounded-md font-orbitron"
             >
-              What’s Trend in 2025 ?
-            </h1>
-            <p class="hero-description">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor in- cididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut
-            </p>
-            <div>
-              <button class="button-email">Email Address</button>
-              <button class="button-join">JOIN NOW</button>
-            </div>
-            <div>
-              <h4 class="contact-heading">Contact us</h4>
-              <div class="icons">
-                <span>
-                  <img src="/assets/Group.png" alt="facebook-icon" />
-                </span>
-                <span>
-                  <img src="/assets/Group (1).png" alt="messenger-icon" />
-                </span>
-                <span>
-                  <img src="/assets/Group (2).png" alt="instagram-icon" />
-                </span>
-                <span>
-                  <img src="/assets/Group (3).png" alt="whatsapp-icon" />
-                </span>
-              </div>
-            </div>
+              Email Address
+            </button>
+            <button
+              class="button-join bg-black text-white font-orbitron ml-4 px-2 rounded-md"
+            >
+              JOIN NOW
+            </button>
+          </div>
+
+          <h4 class="contact-heading text-center mb-4">Contact us</h4>
+          <div class="icons flex gap-4 p-2 absolute">
+            <span>
+              <img src="/assets/Group.png" alt="facebook-icon" />
+            </span>
+            <span>
+              <img src="/assets/Group (1).png" alt="messenger-icon" />
+            </span>
+            <span>
+              <img src="/assets/Group (2).png" alt="instagram-icon" />
+            </span>
+            <span>
+              <img src="/assets/Group (3).png" alt="whatsapp-icon" />
+            </span>
           </div>
         </div>
-      </section>
+      </div>
     </div>
   </body>
 </html>
